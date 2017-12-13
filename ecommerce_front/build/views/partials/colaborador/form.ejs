@@ -1,0 +1,66 @@
+<div class="row">	
+    <div class="col-xs-12">
+        <h4>General</h4>
+        <hr>
+    </div>
+</div>
+<div class="form-group">
+    <label for="name">Instituição/Empresa</label>
+    <input type="text" name="name" class="form-control" placeholder="Enter you full name" value="<%= colaborador.name %>">
+</div>
+
+<div class="form-group">
+    <label for="name">Descrissão</label>
+    <input type="text" name="descrissao" class="form-control" placeholder="Enter you full name" value="<%= colaborador.name %>">
+</div>
+
+<input type="hidden" name="_id" value="<%= colaborador.id %>" >
+
+<div class="form-group">
+    <label for="email">Email</label>
+    <input type="email" name="email" class="form-control" placeholder="Enter a valid email" value="<%= colaborador.email %>">
+</div>
+
+<div class="form-group">
+    <label for="password">Password</label>
+    <input type="password" name="password" class="form-control" placeholder="Enter your secrete password" value="<%= colaborador.password %>">
+</div>
+
+<div class="form-group">
+    <label for="name">CNPJ</label>
+    <input type="text" name="cnpj" class="form-control" placeholder="XX.XXX.XXX/XXXX-XX" value="<%= colaborador.id %>">
+</div>
+
+<div class="form-group">
+    <label for="name">Telefone</label>
+    <input type="tel" name="telefone" class="form-control" placeholder="(XX) XXXXX-XXXX" value="<%= colaborador.celphone %>">
+</div>
+
+<div class="form-group">
+    <label for="name">Celular</label>
+    <input type="tel" name="celular" class="form-control" placeholder="(XX) XXXXX-XXXX" value="<%= colaborador.celphone %>">
+</div>
+
+<div class="form-group">
+    <label for="name">Rua</label>
+    <input type="text" name="rua" class="form-control" placeholder="Enter your street name" value="<%= colaborador.address.street %>">
+</div>
+
+<div class="form-group">
+    <label for="name">Bairro</label>
+    <input type="text" name="bairro" class="form-control" placeholder="Enter your neightborhood"  value="<%= colaborador.address.neightborhood %>">
+</div>
+
+<div class="form-group">
+    <label for="name">Numero</label>
+    <input type="number" name="numero" class="form-control" placeholder="Enter your number"  value="<%= colaborador.address.number %>">
+</div>
+
+<div class="form-group">
+    <label for="name">Cidade</label>
+    <input type="text" name="cidade" class="form-control" placeholder="Enter your city name"  value="<%= colaborador.address.city %>">
+</div>
+
+<div class="form-group">
+    <button type="submit" class="btn btn-red-dark-default">Save</button>
+</div>

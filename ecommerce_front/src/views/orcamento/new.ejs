@@ -1,0 +1,16 @@
+<%- contentFor('body') %>
+<section id="orcamento">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<h4 class="title upper bold">Register</h4>
+				<span class="subtitle">Create a new orcamento</span>
+			</div>
+			<div class="col-xs-12">
+				<form action="/orcamento" method="POST">
+					<% include ./../partials/orcamento/form %>
+				</form>
+			</div>
+		</div>
+	</div>
+</section>
