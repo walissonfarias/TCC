@@ -37,5 +37,6 @@ module.exports = (app) => {
 	passport.serializeUser(Customer.serializeUser())
 	passport.deserializeUser(Customer.deserializeUser())
 
-	mongoose.connect('mongodb://localhost:27017/son_ecommerce')
+	mongoose.connect('mongodb://walisson:wff5895@ds141401.mlab.com:41401/son_ecommerce')
+	//mongoose.connect('mongodb://localhost:27017/son_ecommerce')
 }

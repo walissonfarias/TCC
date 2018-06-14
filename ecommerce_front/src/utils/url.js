@@ -3,5 +3,5 @@ module.exports = (req, path) => {
 						  .concat(req.get('host'))
 						  .concat(path || req.originalUrl)
 
-   return url
+    return url
 }
